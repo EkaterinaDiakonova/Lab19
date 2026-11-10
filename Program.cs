@@ -44,30 +44,31 @@
 // Console.WriteLine(CountCharacter("мама", 'м'));
 // Console.WriteLine(CountCharacter("", 'м'));
 
-using System.Diagnostics.SymbolStore;
+// using System.Diagnostics.SymbolStore;
 
-int CountDigits(string text)
-{
-    int count = 0;
-    foreach (char symbol in text)
-    {
-        if (char.IsDigit(symbol))
-        {
-            count++;
-        }
-    }
-    return count;
+// int CountDigits(string text)
+// {
+//     int count = 0;
+//     foreach (char symbol in text)
+//     {
+//         if (char.IsDigit(symbol))
+//         {
+//             count++;
+//         }
+//     }
+//     return count;
 
-    int CountLetters(string text)
-    {
-        int count = 0;
-        foreach (char symbol in text)
-        {
-            if (char.IsLetter(symbol))
-                count++;
-        }
-        return count;
-    }
-}
-Console.WriteLine(CountDigits("Код 2026!"));
-Console.WriteLine(CountLetters("Код 2026!"));
+//     int CountLetters(string text)
+//     {
+//         int count = 0;
+//         foreach (char symbol in text)
+//         {
+//             if (char.IsLetter(symbol))
+//                 count++;
+//         }
+//         return count;
+//     }
+// }
+// Console.WriteLine(CountDigits("Код 2026!"));
+// Console.WriteLine(CountLetters("Код 2026!"));
+
